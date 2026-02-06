@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Address Extractor</title>
+</head>
+<body>
+    <h1>Company Address Extractor</h1>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+          {% for msg in messages %}
+            <li>{{ msg }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label>Upload Excel file:</label>
+        <input type="file" name="file" accept=".xlsx">
+        <button type="submit">Process</button>
+    </form>
+
+    <br>
+
+    <a href="/download">Download Extracted Addresses</a>
+</body>
+</html>
