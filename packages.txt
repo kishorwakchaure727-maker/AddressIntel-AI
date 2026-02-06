@@ -1,2 +1,8 @@
-playwright
-chromium-browser-snapshots
+libgbm1
+libwoff1
+fonts-liberation
+libxss1
+libappindicator3-1
+libnss3
+lsb-release
+xdg-utils

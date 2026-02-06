@@ -23,6 +23,7 @@ users.db
 # Environment
 .env
 .env.local
+.streamlit/secrets.toml
 
 # OS
 .DS_Store
