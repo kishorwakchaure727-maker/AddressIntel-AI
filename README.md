@@ -1,5 +1,7 @@
 # AddressIntel AI
 
+**AddressIntel AI** is a trademark of **RealMan AI Pvt Ltd**. Owned & Operated by **Kishor Wakchaure**.
+
 **Intelligent Corporate Location Intelligence** - AI-powered address extraction from company websites.
 
 ## Features

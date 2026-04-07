@@ -568,6 +568,7 @@ if input_data:
             file_name="extracted_addresses.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+        st.caption("AddressIntel AI is a trademark of RealMan AI Pvt Ltd. Owned & Operated by Kishor Wakchaure.")
     else:
         st.warning("No addresses found for the provided inputs.")
 
